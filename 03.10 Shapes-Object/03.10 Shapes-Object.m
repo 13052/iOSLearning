@@ -2,6 +2,7 @@
 
 // --------------------------------------------------
 // constants for the different kinds of shapes and their colors
+//如果一个变量只有几种可能的值，那么，可以把它定义为枚举类型（也称为枚举）
 
 typedef enum {
 	kRedColor,
@@ -40,6 +41,41 @@ NSString *colorName (ShapeColor color)
 	
 } // colorName
 
+// --------------------------------------------------
+// All about Triangles
+
+@interface Triangle : NSObject
+{
+    ShapeColor fillColor;
+    ShapeRect bounds;
+}
+
+- (void) setFillColor: (ShapeColor) fillColor;
+
+- (void) setBounds: (ShapeRect) bounds;
+
+- (void) draw;
+// --------------------------------------------------
+@end // Triangle
+
+@implementation Triangle
+
+- (void) setFillColor: (ShapeColor) c
+{
+    fillColor = c;
+} // set FillColor
+
+- (void) setBounds:(ShapeRect) b
+{
+    bounds = b;
+} // setBounds
+
+- (void) draw
+{
+    NSLog(@"drawing a Triangle at (%d %d %d %d) in %@", bounds.x, bounds.y, bounds.width, bounds.height, colorName(fillColor));
+} // draw
+
+@end
 
 // --------------------------------------------------
 // All about Circles
@@ -82,7 +118,7 @@ NSString *colorName (ShapeColor color)
 {
 	NSLog (@"drawing a circle at (%d %d %d %d) in %@",
 		   bounds.x, bounds.y, 
-		   bounds.width, bounds.height,
+           bounds.width, bounds.height,
 		   colorName(fillColor));
 } // draw
 
@@ -199,7 +235,7 @@ void drawShapes (id shapes[], int count)
 
 int main (int argc, const char * argv[]) 
 {
-	id shapes[3];
+	id shapes[4];
 	
 	ShapeRect rect0 = { 0, 0, 10, 30 };
 	shapes[0] = [Circle new];
@@ -215,9 +251,14 @@ int main (int argc, const char * argv[])
 	shapes[2] = [OblateSphereoid new];
 	[shapes[2] setBounds: rect2];
 	[shapes[2] setFillColor: kBlueColor];
+    
+    ShapeRect rect3 = {47, 32, 80, 50};
+    shapes[3] = [Triangle new];
+    [shapes[3] setBounds: rect3];
+    [shapes[3] setFillColor:kRedColor];
 	
-	drawShapes (shapes, 3);
-	// What the fuck is going on?
+	drawShapes (shapes, 4);
+    
 	return (0);
 	
 } // main
