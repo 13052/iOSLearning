@@ -10,12 +10,12 @@
 
 @implementation Circle
 
--(void) setRedius: (int) _redius {
-    redius = _redius;
+-(void) setRadius: (int) _radius {
+    radius = _radius;
 }
 
 -(float)getArea{
-    area = PI * redius * redius;
+    area = PI * radius * radius;
     return area;
 }
 

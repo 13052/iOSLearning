@@ -14,7 +14,7 @@ int main(int argc, const char * argv[]) {
         // insert code here...
         Circle *c = [Circle new];
         [c setColor:@"green"];
-        [c setRedius:8];
+        [c setRadius:8];
         float area = [c getArea];
         [c getColor];
         NSLog(@"Its area is %f", area);

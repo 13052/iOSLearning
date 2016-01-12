@@ -11,11 +11,11 @@
 #define PI 3.14
 
 @interface Circle : Shape {
-    int redius;
+    int radius;
     float area;
 }
 
--(void) setRedius: (int) _redius;
+-(void) setRadius: (int) _radius;
 
 -(float) getArea;
 
