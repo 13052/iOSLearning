@@ -108,12 +108,6 @@
 				15EA893A1C427A010098ECFE /* AppDelegate.h */,
 				15EA893B1C427A010098ECFE /* AppDelegate.m */,
 				15EA89401C427A010098ECFE /* Main.storyboard */,
-				15EA89701C42A89E0098ECFE /* ToDoItem.h */,
-				15EA89711C42A89E0098ECFE /* ToDoItem.m */,
-				15EA896D1C4298520098ECFE /* ToDoListTableViewController.h */,
-				15EA896E1C4298520098ECFE /* ToDoListTableViewController.m */,
-				15EA896A1C4297B80098ECFE /* AddToDoItemViewController.h */,
-				15EA896B1C4297B80098ECFE /* AddToDoItemViewController.m */,
 				15EA89431C427A010098ECFE /* Assets.xcassets */,
 				15EA89481C427A010098ECFE /* Info.plist */,
 				15EA89371C427A010098ECFE /* Supporting Files */,
@@ -124,6 +118,12 @@
 		15EA89371C427A010098ECFE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				15EA89701C42A89E0098ECFE /* ToDoItem.h */,
+				15EA89711C42A89E0098ECFE /* ToDoItem.m */,
+				15EA896D1C4298520098ECFE /* ToDoListTableViewController.h */,
+				15EA896E1C4298520098ECFE /* ToDoListTableViewController.m */,
+				15EA896A1C4297B80098ECFE /* AddToDoItemViewController.h */,
+				15EA896B1C4297B80098ECFE /* AddToDoItemViewController.m */,
 				15EA89381C427A010098ECFE /* main.m */,
 			);
 			name = "Supporting Files";

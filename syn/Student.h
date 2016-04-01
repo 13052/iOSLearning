@@ -30,7 +30,7 @@
 - (int) age;
 - (int) no;
 
-//重写构造方法
+//重写构造方法 
 - initWithAge: (int) age andNo: (int) no;
 
 @end

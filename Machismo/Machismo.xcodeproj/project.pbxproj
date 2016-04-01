@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		155A1EDA1CAD07070043402E /* PlayingCardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A1ED91CAD07070043402E /* PlayingCardGameViewController.m */; };
 		1560414F1C8DC31C001F2270 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1560414E1C8DC31C001F2270 /* main.m */; };
 		156041521C8DC31C001F2270 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 156041511C8DC31C001F2270 /* AppDelegate.m */; };
 		156041551C8DC31C001F2270 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156041541C8DC31C001F2270 /* ViewController.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		155A1ED81CAD07070043402E /* PlayingCardGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardGameViewController.h; sourceTree = "<group>"; };
+		155A1ED91CAD07070043402E /* PlayingCardGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardGameViewController.m; sourceTree = "<group>"; };
 		1560414A1C8DC31C001F2270 /* Machismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Machismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1560414E1C8DC31C001F2270 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		156041501C8DC31C001F2270 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +121,8 @@
 			children = (
 				156041531C8DC31C001F2270 /* ViewController.h */,
 				156041541C8DC31C001F2270 /* ViewController.m */,
+				155A1ED81CAD07070043402E /* PlayingCardGameViewController.h */,
+				155A1ED91CAD07070043402E /* PlayingCardGameViewController.m */,
 				156041561C8DC31C001F2270 /* Main.storyboard */,
 				156041831C8DD832001F2270 /* Model */,
 				156041591C8DC31C001F2270 /* Assets.xcassets */,
@@ -314,6 +319,7 @@
 				1560418C1C8EB33E001F2270 /* PlayingCardDeck.m in Sources */,
 				156041891C8E796E001F2270 /* Deck.m in Sources */,
 				156041821C8DD7A5001F2270 /* Card.m in Sources */,
+				155A1EDA1CAD07070043402E /* PlayingCardGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

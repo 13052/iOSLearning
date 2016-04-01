@@ -1,0 +1,19 @@
+//
+//  Deck.h
+//  Machismo
+//
+//  Created by iMac on 16/3/8.
+//  Copyright © 2016年 丁一航. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "Card.h"
+
+@interface Deck : NSObject
+
+- (void)addCard:(Card *)card atTop:(BOOL)atTop;
+- (void)addCard:(Card *)card;
+
+- (Card *)drawRandomCard;
+
+@end
