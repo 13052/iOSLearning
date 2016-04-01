@@ -10,10 +10,10 @@
 
 @interface PlayingCardView : UIView
 
-@property (nonatomic) NSUInteger rank;
-@property (strong, nonatomic) NSString *suit;
-@property (nonatomic) BOOL faceUp;
+@property (nonatomic) NSUInteger rank;// rank of card
+@property (strong, nonatomic) NSString *suit;//花色
+@property (nonatomic) BOOL faceUp;// see if it's face up
 
-- (void)pinch: (UIPinchGestureRecognizer *)gesture;
+- (void)pinch: (UIPinchGestureRecognizer *)gesture;// pinching gesture
 
 @end
