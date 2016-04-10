@@ -426,6 +426,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ding.Imaginarium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -437,6 +438,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ding.Imaginarium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -505,6 +507,7 @@
 				155A1FC61CB545760043402E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		155A1FC71CB545760043402E /* Build configuration list for PBXNativeTarget "ImaginariumTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +516,7 @@
 				155A1FC91CB545760043402E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		155A1FCA1CB545760043402E /* Build configuration list for PBXNativeTarget "ImaginariumUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +525,7 @@
 				155A1FCC1CB545760043402E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
