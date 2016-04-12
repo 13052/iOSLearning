@@ -86,6 +86,7 @@
     
     if (toDoItem.completed) {
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
+        cell.textLabel.textColor = [UIColor blueColor];
     } else {
         cell.accessoryType = UITableViewCellAccessoryNone;
     }
