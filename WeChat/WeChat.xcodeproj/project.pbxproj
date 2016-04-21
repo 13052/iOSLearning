@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150E5A6B1CBE9441006CE46C /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E5A6A1CBE9441006CE46C /* TabBarViewController.m */; };
+		150E5A6E1CBEA445006CE46C /* WeChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E5A6D1CBEA445006CE46C /* WeChatViewController.m */; };
+		150E5A711CBEA467006CE46C /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E5A701CBEA467006CE46C /* ContactsViewController.m */; };
+		150E5A741CBEA49A006CE46C /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E5A731CBEA49A006CE46C /* DiscoveryViewController.m */; };
+		150E5A771CBEA4B9006CE46C /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E5A761CBEA4B9006CE46C /* MeViewController.m */; };
+		150E5A791CBEA87B006CE46C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150E5A781CBEA87B006CE46C /* Main.storyboard */; };
 		155329EF1CBBEC090095B38B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 155329EE1CBBEC090095B38B /* main.m */; };
 		155329F21CBBEC090095B38B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 155329F11CBBEC090095B38B /* AppDelegate.m */; };
 		155329F51CBBEC090095B38B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155329F41CBBEC090095B38B /* ViewController.m */; };
-		155329F81CBBEC090095B38B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155329F61CBBEC090095B38B /* Main.storyboard */; };
 		155329FA1CBBEC090095B38B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155329F91CBBEC090095B38B /* Assets.xcassets */; };
 		155329FD1CBBEC090095B38B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155329FB1CBBEC090095B38B /* LaunchScreen.storyboard */; };
 		15532A081CBBEC090095B38B /* WeChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15532A071CBBEC090095B38B /* WeChatTests.m */; };
@@ -35,13 +40,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		150E5A691CBE9441006CE46C /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarViewController.h; path = ../TabBarViewController.h; sourceTree = "<group>"; };
+		150E5A6A1CBE9441006CE46C /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarViewController.m; path = ../TabBarViewController.m; sourceTree = "<group>"; };
+		150E5A6C1CBEA445006CE46C /* WeChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatViewController.h; sourceTree = "<group>"; };
+		150E5A6D1CBEA445006CE46C /* WeChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatViewController.m; sourceTree = "<group>"; };
+		150E5A6F1CBEA467006CE46C /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		150E5A701CBEA467006CE46C /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		150E5A721CBEA49A006CE46C /* DiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewController.h; sourceTree = "<group>"; };
+		150E5A731CBEA49A006CE46C /* DiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
+		150E5A751CBEA4B9006CE46C /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		150E5A761CBEA4B9006CE46C /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		150E5A781CBEA87B006CE46C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		155329EA1CBBEC090095B38B /* WeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		155329EE1CBBEC090095B38B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		155329F01CBBEC090095B38B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		155329F11CBBEC090095B38B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		155329F31CBBEC090095B38B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		155329F41CBBEC090095B38B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		155329F71CBBEC090095B38B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		155329F91CBBEC090095B38B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		155329FC1CBBEC090095B38B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		155329FE1CBBEC090095B38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,9 +116,19 @@
 		155329EC1CBBEC090095B38B /* WeChat */ = {
 			isa = PBXGroup;
 			children = (
+				150E5A691CBE9441006CE46C /* TabBarViewController.h */,
+				150E5A6A1CBE9441006CE46C /* TabBarViewController.m */,
 				155329F31CBBEC090095B38B /* ViewController.h */,
 				155329F41CBBEC090095B38B /* ViewController.m */,
-				155329F61CBBEC090095B38B /* Main.storyboard */,
+				150E5A751CBEA4B9006CE46C /* MeViewController.h */,
+				150E5A761CBEA4B9006CE46C /* MeViewController.m */,
+				150E5A781CBEA87B006CE46C /* Main.storyboard */,
+				150E5A721CBEA49A006CE46C /* DiscoveryViewController.h */,
+				150E5A731CBEA49A006CE46C /* DiscoveryViewController.m */,
+				150E5A6F1CBEA467006CE46C /* ContactsViewController.h */,
+				150E5A701CBEA467006CE46C /* ContactsViewController.m */,
+				150E5A6C1CBEA445006CE46C /* WeChatViewController.h */,
+				150E5A6D1CBEA445006CE46C /* WeChatViewController.m */,
 				155329F91CBBEC090095B38B /* Assets.xcassets */,
 				155329FB1CBBEC090095B38B /* LaunchScreen.storyboard */,
 				155329FE1CBBEC090095B38B /* Info.plist */,
@@ -246,9 +271,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150E5A791CBEA87B006CE46C /* Main.storyboard in Resources */,
 				155329FD1CBBEC090095B38B /* LaunchScreen.storyboard in Resources */,
 				155329FA1CBBEC090095B38B /* Assets.xcassets in Resources */,
-				155329F81CBBEC090095B38B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150E5A6B1CBE9441006CE46C /* TabBarViewController.m in Sources */,
+				150E5A711CBEA467006CE46C /* ContactsViewController.m in Sources */,
+				150E5A741CBEA49A006CE46C /* DiscoveryViewController.m in Sources */,
 				155329F51CBBEC090095B38B /* ViewController.m in Sources */,
 				155329F21CBBEC090095B38B /* AppDelegate.m in Sources */,
+				150E5A6E1CBEA445006CE46C /* WeChatViewController.m in Sources */,
+				150E5A771CBEA4B9006CE46C /* MeViewController.m in Sources */,
 				155329EF1CBBEC090095B38B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,14 +341,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		155329F61CBBEC090095B38B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				155329F71CBBEC090095B38B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		155329FB1CBBEC090095B38B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -499,6 +521,7 @@
 				15532A191CBBEC090095B38B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15532A1A1CBBEC090095B38B /* Build configuration list for PBXNativeTarget "WeChatTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +530,7 @@
 				15532A1C1CBBEC090095B38B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15532A1D1CBBEC090095B38B /* Build configuration list for PBXNativeTarget "WeChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +539,7 @@
 				15532A1F1CBBEC090095B38B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

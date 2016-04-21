@@ -2,12 +2,13 @@
 //  AddToDoItemViewController.h
 //  ToDoList
 //
-//  Created by 丁一航 on 16/1/10.
-//  Copyright © 2016年 丁一航. All rights reserved.
+//  Created by iMac on 16/4/20.
+//  Copyright © 2016年 YihangDing. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "ToDoItem.h"
+//#import "ToDoItem.h"
+@class ToDoItem;
 
 @interface AddToDoItemViewController : UIViewController
 

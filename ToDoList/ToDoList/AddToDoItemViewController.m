@@ -2,11 +2,12 @@
 //  AddToDoItemViewController.m
 //  ToDoList
 //
-//  Created by 丁一航 on 16/1/10.
-//  Copyright © 2016年 丁一航. All rights reserved.
+//  Created by iMac on 16/4/20.
+//  Copyright © 2016年 YihangDing. All rights reserved.
 //
 
 #import "AddToDoItemViewController.h"
+#import "ToDoItem.h"
 
 @interface AddToDoItemViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *textField;
@@ -16,16 +17,6 @@
 
 @implementation AddToDoItemViewController
 
-- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if (sender != self.doneButton) return;
-    if (self.textField.text.length > 0) {
-        self.toDoItem = [[ToDoItem alloc] init];
-        self.toDoItem.itemName = self.textField.text;
-        self.toDoItem.completed = NO;
-    }
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -34,6 +25,15 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if (sender != self.doneButton) return;//检查 Done 是否被按下
+    if (self.textField.text.length > 0) {
+        self.toDoItem = [[ToDoItem alloc] init];
+        self.toDoItem.itemName = self.textField.text;
+        self.toDoItem.completed = NO;
+    }
 }
 
 /*
