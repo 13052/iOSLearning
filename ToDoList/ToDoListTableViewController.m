@@ -34,6 +34,7 @@
     if (item != nil) {
         [self.toDoItems addObject:item];
         [self.tableView reloadData];
+
     }
 }
 
@@ -43,7 +44,7 @@
     [self loadInitialData];
     
     self.navigationController.navigationBar.translucent = YES;
-//    
+    
 //    UIImageView *imageView=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"test.png"]];
 //    imageView.image=[UIImage imageNamed:@"test.png"];
 //    [self.tableView setBackgroundView:imageView];
